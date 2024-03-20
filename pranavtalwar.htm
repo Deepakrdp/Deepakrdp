@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+  body {
+    font-family: Arial, sans-serif;
+    border-radius: 2px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    line-height: 1.6;
+  }
+
+header {
+    background-color: #333;
+    color: rgb(255, 255, 255) ;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 6px solid  rgb(227, 65, 65);
+    position: relative;
+    overflow: hidden;}
+footer {
+    
+    text-align:right;
+    position: relative;
+    overflow: hidden;}
+ button {
+    padding: 10px 20px;
+    background-color: rgb(227, 65, 65);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    margin: 0 10px;
+    cursor:grab;
+    transition:  0.3s ease, transform 0.3s ease;
+  }
+   button:hover {
+    background-color: red;
+    transform: scale(1.2);;
+}
+.map  { 
+     float: right;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .about {
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+   
+    color: black;
+    margin: 1%;
+  }
+  .about h2 {
+    font-size: 3em;
+    margin-top: 0;
+  }
+   p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  .d {margin: 10%;}
+ .img1 {
+    width: 50%;
+  
+    position: relative;
+    overflow: hidden;
+    margin: 3%;
+    margin-top: 10%;
+  }
+.img1 img {
+    width: 100%;
+    
+    display: block;
+    
+    filter: grayscale(0.7);
+    transition: transform 0.5s ease;
+  }
+  .img1:hover img {
+    transform: scale(1.1);
+    filter: grayscale(0) brightness(120%);
+
+    cursor: pointer;
+  }
+
+  .cards { width:30%; 
+  height: 200px;
+  display: flex;
+  gap: 5px;
+}
+.cards img{ 
+  width: 20%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 10px;
+  transition: all ease 0.3s;
+
+  
+}
+.cards img:hover{width: 100%;}
+
+
+td , th {border: 1px solid black ;}
+
+table{  border-collapse: collapse;
+  border: 3px solid blueviolet
+}
+   </style>
+ </head>
+
+ <body>
+    <header>
+        <h1>Welcome to the  City of Red Deer</h1>
+        <div class="button">
+       
+
+          
+          <button onclick="location.href='#about'" class="q" >About</button>
+          <button onclick="location.href='#gallery'" class="w" >Gallery</button>
+          <button onclick="location.href='#events'" class="e">Events</button>
+        
+          
+         
+        
+        </div>
+    </header>
+      
+      <div class="container">
+
+        <div class="about" id="about">
+          <h2>About Red Deer</h2>
+          <p>If you find yourself in Red Deer for sports, business, or pleasure, you can be guaranteed a warm welcome and friendly hospitality. The Red Deer region is in the centre of it all, located halfway between Calgary and Edmonton. Red Deer is young, vibrant, and growing fast with a median age of under 35 years. The Red Deer region is made up of the City of Red Deer and Red Deer County. Residents and visitors enjoy exploring more than 110 km of trails that traverse the Waskasoo Park System, participating or watching sports in top-notch facilities, discovering unique attractions, and attending a variety of cultural events.</p>
+        </div>
+      
+        <div class="img1">
+          <img src="Red_Deer_-_Aerial_-_downtown_bridges.jpg" alt="Edmonton Skyline">
+        </div>
+      
+      </div>
+
+      <div  class="d">
+       
+       <p> Our history is as unique as our name. The name Red Deer was really a misunderstanding, but it kind of stuck. The city was named for the river that flows through it. Cree people called the river that passes through the present-day city “Waskasoo Seepee,” which translates to “Elk River.” Unfortunately, the first Europeans in this area were traders and not naturalists. The British traders thought the local elk were European red deer and translated the Cree name as “Red Deer River” instead of “Elk River” and that is why our city is called Red Deer.
+        <br><br>
+
+Enjoy the warm hospitality of the area’s many hotels, motels, bed and breakfasts, campgrounds, and resorts. The Red Deer region has the finest accommodations that offer stunning views, and easy access to downtown, shopping, recreational facilities, and public places.
+<br><br>
+
+Red Deer and central Alberta is known for its plentiful sporting facilities, events, and friendly people. With an abundance of passionate volunteers, Red Deerians are here to enhance your active lifestyle experience while you’re here! We are fiercely proud of our community and the quality of life it affords. So, whether travelling with a team, your family, or on your own, you’ll find an inviting, active city ready to entertain and be of service to you.</p>
+<br><br><div class="map">
+
+          
+  <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78112.8739937087!2d-113.89048926596432!3d52.27920612512442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5374542947119299%3A0x500a390441644b0!2sRed%20Deer%2C%20AB!5e0!3m2!1sen!2sca!4v1707621369574!5m2!1sen!2sca" width="350" height="350" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe></div>
+<p>We invite you to discover and experience all the amenities and hospitality that our community has to offer. Plan your next holiday, weekend getaway, convention, or family reunion in Red Deer, where every day is a new discovery! </p>
+      </div>
+    
+<h2 id="events">Upcoming Events in Red Deer</h2>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Date</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Red Deer Farmers Market</td>
+        <td>Every Saturday</td>
+        <td>Fresh produce, local goods, and artisan crafts</td>
+    </tr>
+    <tr>
+        <td>Red Deer Winter Carnival</td>
+        <td> March 2nd 2024, 11:00am - 4:00pm </td>
+        <td> Food / Drinks ,Live music ,Activities, Mapple taffy</td>
+    </tr>
+    <tr>
+        <td>Red Deer Art Walk</td>
+        <td>July 15 - July 17, 2024</td>
+        <td>Outdoor art exhibition featuring local artists</td>
+    </tr>
+</table>
+
+
+<h2>Gallery</h2>
+      <div class="cards" id="gallery"> 
+        <img src="Fall---Downtown---Landscape.jpg" alt="img">
+        <img src="123.jpg" alt="img">
+        <img src="71013-Red-Deer-And-Vicinity.webp" alt="img">
+        <img src="34542514_web1_211215-RDA-city-hall-park-trees_1.jpg" alt="img">
+        <img src="istockphoto-589966330-612x612.jpg" alt="img">
+        <img src="Summer---City-Hall-Park---Landscape.jpg" alt="img" >
+        <img src="71025-Red-Deer-And-Vicinity.jpg" alt="img">
+        <img src="71015-Red-Deer-And-Vicinity.webp" alt="img">
+        <img src="12345.jpg" alt="img">
+         </div> 
+    
+     <footer> Name- Deepak <br>Student ID- 000369978 <br> <a href="mailto:deepakkamboj97285@gmail.com">Email- deepakkamboj97285@gmail.com</a> <br> <a href="https://visitreddeer.com/"> Source- visitreddeer.com</a></footer>
+  </body>
+</html>
